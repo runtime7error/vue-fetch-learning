@@ -16,9 +16,12 @@
 
 <script>
 export default {
+  mounted() {
+    this.randomize();
+  },
   data() {
     return {
-      waifuImg: ''
+      waifuImg: '',
     }
   },
   methods: {
